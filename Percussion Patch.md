@@ -17,10 +17,12 @@ n (run 8) # s "voodoo"
 '  s "lt!4?", '
 - Lastly I just wanted another accent hh so I added the extra one more spread out with more gain to cut above the other hats
 - This led me to my final percussion patch code 
-' stack [
+```haskell
+stack [
 s " bd!8 hh!5 sd!3 ? ",
 s "bd bd bd bd" #gain 1.5 ,
 s " ~ cp ~ cp" #pan sine, 
 s "lt!4?",
 s "~~hh~~~hh~" #gain 2
-] ' 
+] 
+```
