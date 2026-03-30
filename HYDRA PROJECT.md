@@ -15,4 +15,10 @@ src(s0).luma(0.6).thresh(0.2).colorama(20)
 s0.initCam()
 src(s0).luma(0.6).thresh(0.2).colorama(20)
 .out(o1)
+src(s1).scale(1.01)
+  .modulateRotate(osc(4,4).brightness(-.5),0.1)
+.scrollX(-0.01)
+.layer(src(o1).luma(.5,1))
+
+  .out()
 ```
