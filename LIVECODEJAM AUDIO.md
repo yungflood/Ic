@@ -31,7 +31,7 @@ s("cp:1").beat("4,12",16).bank("RolandTR909")
 ```
 - I then finished up with a bass line that i created on the off beats
 ```haskell
-_$bass:
+$bass:
 s("saw").note("< ~ f1 ~ f1 ~ f1 ~ f1>")
   .fast(8)
 .gain(1)
